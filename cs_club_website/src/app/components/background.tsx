@@ -16,11 +16,17 @@ export default function Background() {
         }).then(() => {
             setInit(true);
         });
-
-        fetch('/particles/base.json')
-            .then((res) => res.json())
-            .then((data) => setOptions(data))
-            .catch((err) => console.error('Failed to load config:', err));
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            fetch('/particles/darkMode.json')
+                .then((res) => res.json())
+                .then((data) => setOptions(data))
+                .catch((err) => console.error('Failed to load config:', err));
+        } else {
+            fetch('/particles/lightMode.json')
+                .then((res) => res.json())
+                .then((data) => setOptions(data))
+                .catch((err) => console.error('Failed to load config:', err));
+        }
     }, []);
 
     const particlesLoaded = (container: any): any => {
