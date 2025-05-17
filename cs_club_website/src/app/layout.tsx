@@ -28,9 +28,6 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <head>
-                <script src="tsparticles.engine.min.js"></script>
-            </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased p-0 m-0`}
             >
