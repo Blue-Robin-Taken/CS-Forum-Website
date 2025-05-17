@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
+import Background from './components/background';
 
 // Components
 import NavBar from './components/navbar';
@@ -27,11 +28,17 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <head>
+                <script src="tsparticles.engine.min.js"></script>
+            </head>
             <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+                className={`${geistSans.variable} ${geistMono.variable} antialiased p-0 m-0`}
             >
                 <NavBar />
-                {children}
+                <div className="fixed inset-0 -z-10">
+                    <Background />
+                </div>
+                <div id="tsparticles">{children}</div>
             </body>
         </html>
     );
