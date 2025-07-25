@@ -12,6 +12,11 @@ export default function About() {
                     We're the Computer Science Club/Forum at Allen High School.
                     We're more than a decade old and have many sub clubs.
                 </p>
+
+                <h2>Club Forum Leadership</h2>
+                <h3>President: Julian Thomas</h3>
+                <h3>Vice President: Advaiya Lad</h3>
+                <h3>Secretary: Eshaan Deshmukh</h3>
             </div>
         </div>
     );
