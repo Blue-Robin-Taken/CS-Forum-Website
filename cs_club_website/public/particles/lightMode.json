@@ -10,7 +10,7 @@
   },
   "particles": {
     "number": {
-      "value": 100,
+      "value": 80,
       "density": {
         "enable": true,
         "area": 800
@@ -23,10 +23,10 @@
       "type": "circle"
     },
     "opacity": {
-      "value": { "min": 0.1, "max": 0.5 },
+      "value": { "min": 0.1, "max": 0.3 },
       "animation": {
         "enable": true,
-        "speed": 3,
+        "speed": 1,
         "startValue": "random",
         "sync": false
       }
@@ -42,11 +42,11 @@
     },
     "links": {
       "enable": true,
-      "distance": 150,
+      "distance": 200,
       "color": {
         "value": "#000000"
       },
-      "opacity": 0.4,
+      "opacity": 0.2,
       "width": 1,
       "warp": false
     },
