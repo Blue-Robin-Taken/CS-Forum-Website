@@ -7,36 +7,36 @@ import Background from './components/background';
 import NavBar from './components/navbar';
 
 const geistSans = Geist({
-    variable: '--font-geist-sans',
-    subsets: ['latin'],
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-    variable: '--font-geist-mono',
-    subsets: ['latin'],
+  variable: '--font-geist-mono',
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-    title: 'Allen CS Forum',
-    description: 'Website created by the Allen CS Forum',
+  title: 'Allen CS Forum',
+  description: 'Website created by the Allen CS Forum',
 };
 
 export default function RootLayout({
-    children,
+  children,
 }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased p-0 m-0`}
-            >
-                <NavBar />
-                <div className="fixed inset-0 -z-10">
-                    <Background />
-                </div>
-                <div id="tsparticles">{children}</div>
-            </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased p-0 m-0`}
+      >
+        <NavBar />
+        <div className="fixed inset-0 -z-10">
+          <Background />
+        </div>
+        <div id="tsparticles">{children}</div>
+      </body>
+    </html>
+  );
 }

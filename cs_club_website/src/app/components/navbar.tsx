@@ -8,6 +8,9 @@ export default function NavBar() {
       <Link className="hover:text-teal-300 transition" href="/about">
         About
       </Link>
+      {/* <div className='dropdown dropdown-start'>
+        <div tabIndex={0} ></div>
+      </div> */}
     </div>
   );
 }
