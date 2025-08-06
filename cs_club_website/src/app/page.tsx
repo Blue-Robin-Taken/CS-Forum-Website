@@ -4,17 +4,17 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <div className="flex flex-col my-auto">
-      <div className="bg-black rounded-sm mx-auto p-4 my-auto">
-        <h1 className="text-center mx-auto text-7xl font-black m-8 bg-black rounded-sm p-8">
+      <div className=" rounded-sm mx-auto p-4 my-auto  backdrop-blur-[1px]">
+        <h1 className="text-center mx-auto text-7xl font-black m-8 rounded-sm p-8">
           We are the{' '}
           <span className="text-emerald-400">Allen Computer Science Forum</span>
         </h1>
-        <h2 className="text-center mx-auto text-3xl italic font-black m-2 bg-black rounded-sm p-4">
+        <h2 className="text-center mx-auto text-3xl italic font-black m-2 rounded-sm p-4">
           More than a decade old
         </h2>
       </div>
-      <div className="ml-auto mr-60 bg-black rounded-sm mt-8 p-4">
-        <h2 className="text-center mx-auto p-4 bg-black rounded-sm text-5xl">
+      <div className="ml-auto mr-60 rounded-sm mt-8 p-4 backdrop-blur-[1px]">
+        <h2 className="text-center mx-auto p-4 rounded-sm text-5xl">
           How do I join?
         </h2>
         <div className="flex flex-col space-y-4">
@@ -37,8 +37,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="mr-auto ml-60 bg-black rounded-sm mt-4 p-4">
-        <h2 className="text-center mx-auto p-4 bg-black rounded-sm text-5xl">
+      <div className="mr-auto ml-60 backdrop-blur-[1px] rounded-sm mt-4 p-4">
+        <h2 className="text-center mx-auto p-4 rounded-sm text-5xl">
           Do I need to be good?
         </h2>
         <div className="flex flex-col space-y-4 p-4">
