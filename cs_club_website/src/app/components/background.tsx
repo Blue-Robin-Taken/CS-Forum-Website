@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadFull } from 'tsparticles';
-import { none } from '@tsparticles/engine';
+// import { none } from '@tsparticles/engine';
 import { IOptions } from '@tsparticles/engine';
 
 // https://stackoverflow.com/a/77396820/15982771 & https://github.com/tsparticles/react/#readme
@@ -29,15 +29,15 @@ export default function Background() {
     }
   }, []);
 
-  const particlesLoaded = (container: any): any => {
-    console.log(container);
-  };
+  // const particlesLoaded = (container: any): any => {
+  //   console.log(container);
+  // };
 
   if (init && options) {
     return (
       <Particles
         id="tsparticles"
-        particlesLoaded={particlesLoaded}
+        // particlesLoaded={particlesLoaded}
         options={options}
       />
     );

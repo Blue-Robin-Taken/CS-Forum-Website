@@ -28,9 +28,14 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
-      <div className="ml-auto px-4 p-2 bg-emerald-700 flex flex-row rounded-xl items-center justify-center space-x-2">
-        <Link href="https://discord.gg/yfTPTMMfsm">Discord</Link>
-        <FaDiscord />
+      <div className="ml-auto px-4 p-2 bg-[#5865F2] flex flex-row rounded-xl items-center justify-center space-x-2">
+        <Link
+          className="self-center align-middle justify-center mt-1"
+          href="https://discord.gg/yfTPTMMfsm"
+        >
+          Discord
+        </Link>
+        <FaDiscord size={40} />
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ export default function cyberClub() {
             Who are we?
           </h2>
           <p className="mb-8">
-            Welcome! We're the Allen cybersecurity club, made up by students
-            with an interest in computer science and the digital world.
+            Welcome! We&apos;re the Allen cybersecurity club, made up by
+            students with an interest in computer science and the digital world.
           </p>
           <div className="mx-8">
             <p>Founded - 2018</p>

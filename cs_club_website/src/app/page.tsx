@@ -1,17 +1,20 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className="flex flex-col my-auto">
       <div className=" rounded-sm mx-auto p-4 my-auto  backdrop-blur-[1px]">
-        <h1 className="text-center mx-auto text-7xl font-black m-16 rounded-sm p-8">
-          We are the{' '}
-          <span className="text-emerald-300">Allen Computer Science Forum</span>
-        </h1>
-        <h2 className="text-center mx-auto text-3xl italic font-black m-2 rounded-sm p-4">
-          More than a decade old
-        </h2>
+        <div className="m-16 p-4">
+          <h1 className="text-center mx-auto text-7xl font-black rounded-sm p-4">
+            We are the{' '}
+            <span className="text-emerald-300">
+              Allen Computer Science Forum
+            </span>
+          </h1>
+          <h2 className="text-center mx-auto text-3xl italic font-black m-2 rounded-sm p-4">
+            More than a decade old
+          </h2>
+        </div>
       </div>
       <div className="text-center flex flex-row self-center m-24">
         <div className="ml-auto mr-60 rounded-sm mt-8 backdrop-blur-[1px]">
@@ -47,8 +50,8 @@ export default function Home() {
               You can be at any skill level!
             </p>
             <p className="p-4 text-center">
-              Even if you're not interested in CS, it's a great place to network
-              and make friends.
+              Even if you&apos;re not interested in CS, it&apos;s a great place
+              to network and make friends.
             </p>
           </div>
         </div>

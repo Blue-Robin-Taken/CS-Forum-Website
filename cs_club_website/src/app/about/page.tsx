@@ -7,8 +7,8 @@ export default function About() {
           Who are we?
         </h2>
         <p className="text-xl m-2">
-          We're the Computer Science Club/Forum at Allen High School. We're more
-          than a decade old and have many sub clubs.
+          We&apos;re the Computer Science Club/Forum at Allen High School.
+          We&apos;re more than a decade old and have many sub clubs.
         </p>
       </div>
       <div className="justify-center max-w-2xl min-w-2xl mx-auto p-4 bg-emerald-800 rounded-sm">
