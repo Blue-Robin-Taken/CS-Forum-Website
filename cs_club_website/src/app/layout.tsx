@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import Background from './components/background';
+import Footer from './components/footer';
 
 // Components
 import NavBar from './components/navbar';
@@ -17,12 +18,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`p-0 m-0`}>
+      <body className={`p-0 m-0 h-screen flex flex-col`}>
         <NavBar />
         <div className="fixed inset-0 -z-10">
           <Background />
         </div>
-        <div id="tsparticles">{children}</div>
+        <div id="tsparticles" className="m-4 mb-auto">
+          {children}
+        </div>
+
+        <Footer />
       </body>
     </html>
   );

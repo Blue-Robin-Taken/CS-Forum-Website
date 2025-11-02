@@ -4,7 +4,7 @@ import { FaDiscord } from 'react-icons/fa';
 
 export default function NavBar() {
   return (
-    <div className="flex flex-row items-center justify-center text-3xl space-x-8 dark:bg-zinc-950 bg-gray-200 dark:text-white text-black m-0 mb-4 p-4 rounded-sm backdrop-blur-sm bg-opacity-30">
+    <div className="flex flex-row items-center justify-center text-3xl space-x-8 dark:bg-zinc-950 bg-gray-200 dark:text-white text-black m-0 p-4 rounded-sm backdrop-blur-sm bg-opacity-30">
       <Link className="hover:text-teal-300 transition" href="/">
         Home
       </Link>
