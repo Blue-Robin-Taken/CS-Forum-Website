@@ -51,7 +51,7 @@ export default function cyberClub() {
         <div className="text-xl m-2 flex flex-col space-y-4">
           <h3 className="">President: Zong Rui Lee</h3>
           <h3>Vice President: Nikhil Saravana</h3>
-          <h3>Secretary: Andrew Wang</h3>
+          <h3>Secretary: Ashray Shah</h3>
         </div>
       </div>
     </div>
