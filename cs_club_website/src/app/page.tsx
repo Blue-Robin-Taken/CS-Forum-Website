@@ -2,8 +2,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex flex-col ">
-      <div className=" rounded-sm mx-auto p-4 my-auto  backdrop-blur-[1px]">
+    <div className="select-none flex flex-col ">
+      <div className="rounded-sm mx-auto p-4 my-auto  backdrop-blur-[1px]">
         <div className="m-12 p-4">
           <h1 className="text-center mx-auto text-7xl font-black rounded-sm p-4">
             We are the{' '}
@@ -25,6 +25,7 @@ export default function Home() {
             <p className="mt-4 p-4">
               Check out our discord{' '}
               <Link
+                target="_blank"
                 className="text-cyan-500"
                 href="https://discord.gg/yfTPTMMfsm"
               >
