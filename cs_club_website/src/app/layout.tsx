@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Background from './components/background';
 import Footer from './components/footer';
+import { Viewport } from 'next';
 
 // Components
 import NavBar from './components/navbar';
@@ -9,7 +10,11 @@ import NavBar from './components/navbar';
 export const metadata: Metadata = {
   title: 'Allen CS Forum',
   description: 'Website created by the Allen CS Forum',
-  viewport: 'width=device-width, initial-scale=1.0',
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1.0,
 };
 
 export default function RootLayout({
