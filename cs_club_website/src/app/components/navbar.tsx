@@ -11,7 +11,7 @@ export default function NavBar() {
       <Link className="hover:text-teal-300 transition" href="/about">
         About
       </Link>
-      <div className="dropdown dropdown-start my-auto">
+      <div className="dropdown dropdown-start my-auto z-50">
         <div
           tabIndex={0}
           role="button"
@@ -31,6 +31,9 @@ export default function NavBar() {
           </li>
         </ul>
       </div>
+      <Link className="hover:text-teal-300 transition" href="/calendar">
+        Calendar
+      </Link>
       <div className="ml-auto px-4 p-2 bg-[#5865F2] flex flex-row rounded-xl items-center justify-center space-x-2">
         <Link
           className="self-center align-middle justify-center mt-1"
