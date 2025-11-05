@@ -9,6 +9,7 @@ import NavBar from './components/navbar';
 export const metadata: Metadata = {
   title: 'Allen CS Forum',
   description: 'Website created by the Allen CS Forum',
+  viewport: 'width=device-width, initial-scale=1.0',
 };
 
 export default function RootLayout({
