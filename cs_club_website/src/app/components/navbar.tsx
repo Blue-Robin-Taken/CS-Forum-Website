@@ -26,6 +26,9 @@ export default function NavBar() {
           <li>
             <Link href="/subforms/cyber">Cybersecurity Club</Link>
           </li>
+          <li>
+            <Link href="/subforms/dataScience">Data Science Club</Link>
+          </li>
         </ul>
       </div>
       <div className="ml-auto px-4 p-2 bg-[#5865F2] flex flex-row rounded-xl items-center justify-center space-x-2">
