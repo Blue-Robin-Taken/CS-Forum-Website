@@ -29,6 +29,9 @@ export default function NavBar() {
           <li>
             <Link href="/subforms/dataScience">Data Science Club</Link>
           </li>
+          <li>
+            <Link href="/subforms/renew">Project Renew</Link>
+          </li>
         </ul>
       </div>
       <Link className="hover:text-teal-300 transition" href="/calendar">
