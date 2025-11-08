@@ -12,6 +12,19 @@ export default function dataScience() {
           className="rounded-sm border-2 border-white m-4"
         />
       </div>
+      <a
+          href="https://www.instagram.com/ahs_project.renew?igsh=MWc2czBucmVhc2s3bA=="
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:scale-110 transition-transform"
+        >
+          <Image
+            src="/photos/Renew/Instagram_logo_2022.svg.png" // your Instagram logo here
+            alt="Project Renew Instagram"
+            width={50}
+            height={50}
+          />
+        </a>
       <div className="bg-emerald-800 text-left p-4 text-xl/8 flex flex-col gap-2">
         <h2 className="text-3xl m-2 p-2 align-middle justify-center text-center font-bold">
           What we do
