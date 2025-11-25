@@ -10,6 +10,17 @@ import NavBar from './components/navbar';
 export const metadata: Metadata = {
   title: 'Allen CS Forum',
   description: 'Website created by the Allen CS Forum',
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/web-app-manifest-192x192.png", sizes: "192x192", type: "image/png" },
+      { url: "/web-app-manifest-512x512.png", sizes: "512x512", type: "image/png" }
+    ],
+    apple: [
+      { url: "/web-app-manifest-192x192.png", sizes: "192x192", type: "image/png" }
+    ]
+  },
+  manifest: "/manifest.webmanifest"
 };
 
 export const viewport: Viewport = {
