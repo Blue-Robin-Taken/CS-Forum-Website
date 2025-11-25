@@ -12,6 +12,7 @@ export default function dataScience() {
           className="rounded-sm border-2 border-white m-4"
         />
       </div>
+
       <div className="bg-emerald-800 text-left p-4 text-xl/8 flex flex-col gap-2">
         <h2 className="text-3xl m-2 p-2 align-middle justify-center text-center font-bold">
           What we do
@@ -46,7 +47,7 @@ export default function dataScience() {
           +2 hours for donating big/expensive tech
         </p>
         <h2 className="text-3xl m-2 p-2 align-middle justify-center text-center font-bold">
-          What helper helper should look like
+          What HelperHelper should look like
         </h2>
         <Image
           className="align-middle justify-center self-center"
@@ -57,17 +58,54 @@ export default function dataScience() {
           Category of need: Technology, Coordinator first and last name: Jake Holbein, 
           Coordinator Email Address: ahsprojectrenew25@gmail.com"
         />
+
+        {/* Our Socials section */}
+        <div className="flex flex-col items-center mt-8">
+          <h2 className="text-3xl m-2 p-2 text-center font-bold">Our Socials</h2>
+          <div className="flex flex-row gap-6 items-center">
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/ahs_project.renew?igsh=MWc2czBucmVhc2s3bA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image
+                src="/photos/Renew/Instagram_logo_2022.svg.png"
+                alt="Project Renew Instagram"
+                width={50}
+                height={50}
+              />
+            </a>
+
+            {/* Discord */}
+            <a
+              href="https://discord.gg/yK6cYjPzTT"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:scale-110 transition-transform"
+            >
+              <Image
+                src="/photos/Renew/Discord_logo.png"
+                alt="Project Renew Discord"
+                width={50}
+                height={50}
+              />
+            </a>
+          </div>
+        </div>
       </div>
+
       <div className="justify-center max-w-2xl min-w-2xl mx-auto p-4 bg-emerald-800 rounded-sm">
         <h2 className="text-3xl m-2 p-2 align-middle justify-center text-center font-bold">
           Current Leadership:
         </h2>
         <div className="text-xl m-2 flex flex-col space-y-4">
-          <h3 className="">President: Alan Ge</h3>
+          <h3>President: Alan Ge</h3>
           <h3>Vice President: Andrew Wang</h3>
           <h3>Secretary: Tawqir Quraishi</h3>
         </div>
-      </div>{' '}
+      </div>
     </div>
   );
 }
